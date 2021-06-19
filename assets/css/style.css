@@ -73,8 +73,19 @@ section {
 }
 
 /* article elements */
-.titleBox {
+article {
+    width: 95%;
+    margin: 2%
+}
 
+.titleBox {
+    z-index: 1;
+    border:3px solid black;
+    padding: 4px;
+    background-color: wheat;
+    position:sticky;
+    top: -10px;
+    left: -10px;
 }
 
 .aboutMe {
