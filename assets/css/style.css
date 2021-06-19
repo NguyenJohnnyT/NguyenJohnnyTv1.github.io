@@ -1,3 +1,8 @@
+:root {
+    --mainColor1: #a2c4c9;
+    --mainColor2: #d5a6bd;
+}
+
 body {
     font-family: 'calibri';
     font-size: 16px;
@@ -8,7 +13,7 @@ body {
 /* header and nav elements */
 header,
 footer {
-    background-color: #d5a6bd;
+    background-color: var(--mainColor2);
     border-style: groove;
     border-color: black;
     border-width: 5px;
@@ -46,7 +51,7 @@ h3 {
 }
 
 .subBody {
-    background-color: #a2c4c9;
+    background-color: var(--mainColor1);
 }
 
 /* hero elements */
@@ -79,7 +84,7 @@ article {
 }
 
 .titleBox {
-    z-index: 1;
+    z-index: 2;
     border:3px solid black;
     padding: 4px;
     background-color: wheat;
@@ -89,5 +94,10 @@ article {
 }
 
 .aboutMe {
-
+    z-index:1;
+    border: 3px solid black;
+    padding: 3px;
+    background-color: var(--mainColor2);
+    position:flex;
+    flex: 1 0 auto
 }
