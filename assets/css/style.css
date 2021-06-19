@@ -30,6 +30,7 @@ nav {
     float: right;
 }
 
+/* link styling for nav bar */
 a:link {
     color: black;
     text-decoration: none;
@@ -78,8 +79,8 @@ h3 {
 
 /* hero elements */
 section {
-    /* display: flex;
-    flex: 0 0 500px; */
+    display: flex;
+    /* flex: 0 0 500px; */
     justify-content: space-between;
     align-items: center;
     padding: 2%
@@ -146,17 +147,36 @@ article {
         font-size: 95%
     }
     section {
-        display: flex;
-        width: 25%;
-        justify-content: space-around;
+        
+
     }
 }
   
   /* Small smartphones*/
 @media (max-width: 576px) {
-    h2 {
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        display: flex;
         font-size: 95%;
-        width:25%
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    header nav h2{
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        flex-direction: column;
+        justify-content: center;
+    }
+    section img {
+        margin-bottom: 5px
     }
 }
   
