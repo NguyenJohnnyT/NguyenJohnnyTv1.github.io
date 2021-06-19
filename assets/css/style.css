@@ -1,14 +1,24 @@
 body {
     font-family: 'calibri';
-    margin: 0;
+    margin: 0px;
+}
+
+header {
+    background-color: #d5a6bd;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    /* margin: 10px; */
 }
 
 h1 {
     display: inline-block;
+    margin-left: 5px;
 }
 
 h2{
     display: inline-block;
+    margin-right: 5px;
 }
 
 h2::before {
@@ -23,16 +33,25 @@ nav {
     float: right;
 }
 
+section {
+    background-color: #a2c4c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%
+
+}
+
 .hero {
     border: 2px solid black;
-    width: 20vh;
-    height: 20vh;
-    border-radius: 10vh;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
 }
 
 .hero2 {
     border: 2px solid black;
-    width: 20vh;
-    height: 20vh;
-    border-radius: 10vh;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
 }
