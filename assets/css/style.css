@@ -1,7 +1,7 @@
 :root {
     /* ice cream colors = #a2c4c9, d5a6bd */
-    --mainColor1: yellow;
-    --mainColor2: green ;
+    --mainColor1: #a2c4c9;
+    --mainColor2: #d5a6bd;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
     font-size: 16px;
     margin: 0px;
 }
-
 
 /* header and nav elements */
 header{
@@ -25,8 +24,8 @@ footer {
     position: fixed;
     bottom: 0px;
     width:100%;
-
 }
+
 nav {
     float: right;
 }
@@ -59,6 +58,8 @@ h3 {
 
 .subBody {
     background-color: var(--mainColor1);
+    display:inline-block;
+    height: 100vh;
 }
 
 /* hero elements */
