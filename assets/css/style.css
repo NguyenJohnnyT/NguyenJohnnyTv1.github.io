@@ -1,0 +1,38 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h2{
+    display: inline-block;
+}
+
+h2::before {
+    content: '🤣';
+}
+
+h2::after {
+    content: '🤣'
+}
+
+nav {
+    float: right;
+}
+
+.hero {
+    border: 2px solid black;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 10vh;
+}
+
+.hero2 {
+    border: 2px solid black;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 10vh;
+}
