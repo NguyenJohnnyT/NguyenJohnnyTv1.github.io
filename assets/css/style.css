@@ -21,9 +21,9 @@ header{
 footer {
     background-color: var(--mainColor2);
     border: 5px groove black;
-    position: fixed;
+    position: relative;
     bottom: 0px;
-    width:100%;
+    width:100vh;
 }
 
 nav {
@@ -88,16 +88,16 @@ section {
 }
 
 .hero {
-    border: 2px solid black;
-    min-width: 200px;
+    border: 5px solid black;
+    min-width: 400px;
     width: 20%;
     height: 20%;
     border-radius: 50%;
 }
 
 .hero2 {
-    border: 2px solid black;
-    min-width: 150px;
+    border: 4px solid black;
+    min-width: 300px;
     width: 15%;
     height: 15%;
     border-radius: 50%;
@@ -110,7 +110,6 @@ article {
 }
 
 #titleBox {
-    z-index: 2;
     border:3px solid black;
     padding: 4px;
     background-color: wheat;
@@ -120,7 +119,6 @@ article {
 }
 
 #aboutMe {
-    z-index:1;
     border: 3px solid black;
     padding: 3px;
     background-color: var(--mainColor2);
@@ -131,8 +129,6 @@ article {
 /* footer elements */
 #footNavBar {
     float: right;
-    display: flex;
-    justify-content: flex-end;
 }
 
 /* media elements */
@@ -162,6 +158,7 @@ article {
     header {
         display: flex;
         font-size: 95%;
+        width: 100vh;
         flex-direction:column;
         justify-content: center;
     }
@@ -171,6 +168,11 @@ article {
         justify-content: center;
     }
 
+    #subBody {
+        width: 102vh;
+        height:auto;
+    }
+
     section {
         flex-direction: column;
         justify-content: center;
@@ -178,5 +180,6 @@ article {
     section img {
         margin-bottom: 5px
     }
+    footer {}
 }
   
