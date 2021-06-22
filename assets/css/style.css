@@ -4,7 +4,11 @@
     --mainColor2: rgba(255,221,238,1);
 }
 
-
+body {
+    font-family: 'calibri';
+    font-size: 16px;
+    margin: 0px;
+}
 
 /* header and nav elements */
 header{
@@ -27,14 +31,29 @@ nav {
     background: linear-gradient(180deg, var(--mainColor2) 24%, var(--mainColor1) 94%);
 }
 
-body {
-    font-family: 'calibri';
-    font-size: 16px;
-    margin: 0px;
+section {
+    display: flex;
+    /* flex: 0 0 500px; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+article {
+    width: 95%;
+    margin: 2%
+}
+
+aside {
+    margin-left: 20%;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 footer {
     background-color: var(--mainColor2);
+    border: 3px solid black;
+    width: 95%;
     display:flex;
     justify-content:space-between
 }
@@ -68,14 +87,15 @@ h3 {
 }
 
 /* header elements */
-.title {
+/* .title {
     display:flex;
     align-items: flex-start;
     justify-content: flex-start;
-}
+} */
 
 .seperator {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* center of page elements */
@@ -93,16 +113,7 @@ background: linear-gradient(317deg, rgba(255,221,238,1) 9%, rgba(84,233,255,1) 4
     margin-bottom: 25px;
 }
 
-/* hero elements */
-section {
-    display: flex;
-    /* flex: 0 0 500px; */
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%
-
-}
-
+/* section elements */
 .hero {
     border: 5px solid black;
     min-width: 400px;
@@ -120,12 +131,8 @@ section {
 }
 
 /* article elements */
-article {
-    width: 95%;
-    margin: 2%
-}
-
 #titleBox {
+    display:flex;
     border:3px solid black;
     padding: 4px;
     background-color: wheat;
@@ -141,6 +148,10 @@ article {
     position:flex;
     flex: 1 0 auto
 }
+
+/*aside elements*/
+
+
 
 /* footer elements */
 #footNavBar {
