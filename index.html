@@ -16,10 +16,10 @@
             </header>
 
             <nav>
-                <h2 class = 'seperator'><a href = "#aboutMe">About Me</a></h2>
-                <h2 class = 'seperator'><a href = "#linksToWork">Work</a></h2>
-                <h2 class = 'seperator'><a href = "#contactMe">Contact Me</a></h2>
-                <h2 class = 'seperator'>Resume</h2>
+                <h2 class = 'separator'><a href = "#aboutMe">About Me</a></h2>
+                <h2 class = 'separator'><a href = "#linksToWork">Work</a></h2>
+                <h2 class = 'separator'><a href = "#contactMe">Contact Me</a></h2>
+                <h2 class = 'separator'>Resume</h2>
             </nav>
 
             <img src='./assets/images/johnnypfp.jfif' id='hero' alt="fig 1">
@@ -36,17 +36,26 @@
                 </p>
             </article>
 
-            <aside>
+            <aside id="linksToWork">
                 <h2 class='highlight'>Projects</h2>
                 <div id = 'linkPics'>
-                    <img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 1'>
-                    <img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 2'>
-                    <img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 3'>
-                    <img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 4'>
-                    <img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 5'>
-                    <img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 6'>
+                    <a href="#card1"><img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 1'></a>
+                    <a href="#card2"><img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 2'></a>
+                    <a href="#card3"><img src='https://via.placeholder.com/75x75' class='linkOption' alt='link option 3'></a>
                 </div>
             </aside>
+
+            <section class="projects">
+                <card id="card1">
+                    <img src='https://via.placeholder.com/300x300' alt='project 1'>
+                </card>
+                <card id="card2">
+                    <img src='https://via.placeholder.com/300x300' alt='project 2'>
+                </card>
+                <card id="card3">
+                    <img src='https://via.placeholder.com/300x300' alt='project 3'>
+                </card>
+            </project>
 
             <footer>
                 Contact Me:&nbsp   &nbsp   
@@ -57,8 +66,8 @@
                 </form>
                 &nbsp &nbsp 
                 <button type="button"> Submit </button>
-                <h2><a href = "https://www.linkedin.com/in/johnny-nguyen-17941532/" target="_blank">LinkedIn</a></h2>
-                <h2><a href = "https://github.com/NguyenJohnnyT" target="_blank">GitHub</a></h2>
+                <h2 class="separator"><a href = "https://www.linkedin.com/in/johnny-nguyen-17941532/" target="_blank">LinkedIn</a></h2>
+                <h2 class="separator"><a href = "https://github.com/NguyenJohnnyT" target="_blank">GitHub</a></h2>
             </footer>
         </div>
     </body>
