@@ -58,6 +58,12 @@ aside {
     align-items: center;
 }
 
+contact {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
 footer {
     background-color: var(--mainColor2);
     opacity:80%;
@@ -66,12 +72,13 @@ footer {
     bottom: 0;
     width: 90vw;
     margin-left: 5%;
+    margin-right: 5%;
     height: 2.5rem;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -210,61 +217,16 @@ h3 {
         width: 90vw;
         height: auto;
     }
+
+    #contactMe {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 5px;
+        margin:auto;
+        width: 50%;
+    }
+
     footer {
-        flex-direction: column;
-    }
-    
-}
-  
-/* Large smartphones */
-/* @media (max-width: 768px) {
-    h2 {
-        font-size: 95%
-    }
-    
-
-} */
-  
-  /* Small smartphones*/
-/* @media (max-width: 576px) {
-    .title {
-        display: flex;
         justify-content: center;
+        margin: auto;
     }
-
-    header, nav{
-        display: flex;
-        font-size: 95%;
-        width: 100vw;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    header nav h2{
-        display: flex;
-        justify-content: center;
-    }
-
-    #subBody {
-        width: 100vw;
-        height:auto;
-    }
-
-    section {
-        flex-direction: column;
-        justify-content: center;
-    }
-    section img {
-        margin-bottom: 5px
-    }
-
-    aside {
-        flex-direction: column;
-    }
-
-    .footLinks {
-        font-size: 16px
-    }
-} */
-  
