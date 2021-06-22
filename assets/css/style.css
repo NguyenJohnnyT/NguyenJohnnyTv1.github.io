@@ -75,7 +75,7 @@ footer {
 
 }
 
-/* link styling for nav bar */
+/* anchor styling for nav bar */
 a:link {
     color: black;
     text-decoration: none;
@@ -88,6 +88,7 @@ a:visited {
 
 a:hover {
     font-size: 105%;
+    color: darkgreen;
 }
 
 h1 {
@@ -130,20 +131,17 @@ h3 {
 
 /* article elements */
 #aboutMe {
-    border: 3px solid black;
+    border: 3px solid ghostwhite;
     padding: 3px;
     background-color: var(--mainColor2);
-    opacity: 80%;
-    position:flex;
-    flex: 1 0 auto
+    opacity: 90%;
 }
 
 /*aside elements*/
-
-#linksToWork {
-    position: relative;
-    left: 10%;
-    /* border: 1px solid black; */
+.highlight {
+    background-color: var(--mainColor2);
+    opacity: 80%;
+    border-radius: 30%;
 }
 
 #linkPics {
@@ -166,7 +164,7 @@ h3 {
 .linkOption:hover {
     height: 80px;
     width: 80px;
-    border: 2px inset orangered;
+    border: 2px inset ghostwhite;
 }
 
 /* footer elements */
@@ -178,18 +176,6 @@ h3 {
 #contactMe {
     margin:20px;
 }
-
-
-/* Footer elements */
-.footerLink {
-    margin-left: 10px;
-}
-
-.footerLink:hover {
-    font-weight: bolder;
-    font: lightblue;
-}
-
 
 /* media elements */
 /* Tablets*/
