@@ -52,7 +52,8 @@ article {
 }
 
 aside {
-    margin-left: 20%;
+    position: relative;
+    /* right: 1%; */
     padding-bottom: 5%;
     display: flex;
     justify-content:space-evenly;
@@ -62,7 +63,7 @@ footer {
     background-color: var(--mainColor2);
     border: 3px solid black;
     display:flex;
-    justify-content:space-between;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -162,8 +163,20 @@ background: linear-gradient(317deg, rgba(255,221,238,1) 9%, rgba(84,233,255,1) 4
 
 /*aside elements*/
 
+#linksToWork {
+    position: relative;
+    left: 10%;
+}
+
+.linkPics {
+    display:flex;
+    justify-content: center;'
+    margin-bottom: 10px;
+}
+
 .linkOption {
     border-radius: 50%;
+    margin-left: 15px;
 }
 
 .linkOption:hover {
@@ -199,10 +212,8 @@ background: linear-gradient(317deg, rgba(255,221,238,1) 9%, rgba(84,233,255,1) 4
     h2 {
         font-size: 95%
     }
-    section {
-        
+    
 
-    }
 }
   
   /* Small smartphones*/
