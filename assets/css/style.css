@@ -179,6 +179,7 @@ h3 {
 .proj {
     width: 300px;
     height: auto;
+    border-radius: 50%;
     transition: width 2s, height 4s
 } 
 
@@ -205,19 +206,27 @@ h3 {
         justify-content: center;
         flex-wrap: wrap;
     }
+    .proj:hover {
+        width: 90vw;
+        height: auto;
+    }
+    footer {
+        flex-direction: column;
+    }
+    
 }
   
-/* Large smartphones*/
-@media (max-width: 768px) {
+/* Large smartphones */
+/* @media (max-width: 768px) {
     h2 {
         font-size: 95%
     }
     
 
-}
+} */
   
   /* Small smartphones*/
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .title {
         display: flex;
         justify-content: center;
@@ -257,5 +266,5 @@ h3 {
     .footLinks {
         font-size: 16px
     }
-}
+} */
   
