@@ -2,6 +2,8 @@
     /* ice cream colors = #a2c4c9, d5a6bd */
     --mainColor1: rgba(84,233,255,1);
     --mainColor2: rgba(255,221,238,1);
+    --mainColor3: ghostwhite;
+    --mainColor4: #6666FF;
 }
 
 body {
@@ -30,7 +32,8 @@ header{
 nav {
     display:flex;
     justify-content: center;
-    border-bottom: 2px inset whitesmoke;
+    border-bottom: 2px inset var(--mainColor3);
+    margin-bottom: 20px;
 }
 
 section {
@@ -67,7 +70,7 @@ contact {
 footer {
     background-color: var(--mainColor2);
     opacity:80%;
-    border: 2px solid whitesmoke;
+    border: 2px solid var(--mainColor3);
 
     bottom: 0;
     width: 90vw;
@@ -84,18 +87,33 @@ footer {
 
 /* anchor styling for nav bar */
 a:link {
-    color: black;
+    color: var(--mainColor4);
+    text-shadow: 1px -1px #0404d1a6;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: var(--mainColor4);
     text-decoration: none;
 }
 
 a:hover {
     font-size: 105%;
-    color: darkgreen;
+    color: #0000FF;
+    padding: 2px;
+    text-shadow: 0 0 chocolate)
+}
+
+.navBar {
+    background-color: lightcyan;
+    border-radius: 15%;
+    opacity: 90%;
+}
+
+.navBar:hover {
+    background-color: lightcyan;
+    opacity: 100%;
+    border-radius: 15%;
 }
 
 h1 {
@@ -103,24 +121,28 @@ h1 {
 }
 
 h2{
-    font-size: 120%
+    font-size: 120%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 h3 {
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-size: 105%;
 }
 
-/* header elements */
-.separator {
-    margin-left: 10px;
-    margin-right: 10px;
+/* header element */
+.title {
+    color: var(--mainColor3);
+    text-shadow: 1px 2px black;
 }
+
 
 /* hero element */
 #hero {
     margin:auto;
-    border: 5px solid ghostwhite;
+    border: 5px solid var(--mainColor3);
     width: 350px;
     /* width: 20%; */
     height: 20%;
@@ -130,7 +152,7 @@ h3 {
 
 /* article elements */
 #aboutMe {
-    border: 3px solid ghostwhite;
+    border: 3px solid var(--mainColor3);
     padding: 3px;
     background-color: var(--mainColor2);
     opacity: 90%;
@@ -138,6 +160,7 @@ h3 {
 
 /*aside elements*/
 .highlight {
+    color: black;
     background-color: var(--mainColor2);
     opacity: 80%;
     border-radius: 30%;
@@ -163,7 +186,7 @@ h3 {
 .linkOption:hover {
     height: 80px;
     width: 80px;
-    border: 2px inset ghostwhite;
+    border: 2px inset var(--mainColor3);
 }
 
 /* Project elements */
