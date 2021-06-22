@@ -1,7 +1,30 @@
 :root {
     /* ice cream colors = #a2c4c9, d5a6bd */
-    --mainColor1: #a2c4c9;
-    --mainColor2: #d5a6bd;
+    --mainColor1: rgba(84,233,255,1);
+    --mainColor2: rgba(255,221,238,1);
+}
+
+
+
+/* header and nav elements */
+header{
+    display:flex;
+    justify-content: center;
+    border-top: 5px inset black;
+    border-left: 5px inset black;
+    border-right: 5px inset black;
+    background: rgb(255,221,238);
+    background: linear-gradient(0deg, var(--mainColor2) 28%, var(--mainColor1) 94%);
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    border-bottom: 5px inset black;
+    border-left: 5px inset black;
+    border-right: 5px inset black;
+    background: rgb(255,221,238);
+    background: linear-gradient(180deg, var(--mainColor2) 24%, var(--mainColor1) 94%);
 }
 
 body {
@@ -10,24 +33,10 @@ body {
     margin: 0px;
 }
 
-/* header and nav elements */
-header{
-    background-color: var(--mainColor2);
-    border: 5px groove black;
-    /* padding: 0% 2%; */
-    /* margin: 10px; */
-}
-
 footer {
     background-color: var(--mainColor2);
-    border: 5px groove black;
-    position: relative;
-    bottom: 0px;
-    width:100vh;
-}
-
-nav {
-    float: right;
+    display:flex;
+    justify-content:space-between
 }
 
 /* link styling for nav bar */
@@ -46,35 +55,42 @@ a:hover {
 }
 
 h1 {
-    display: inline-block;
-    margin-left: 5px;
-    font-size: 120%
+    font-size: 150%
 }
 
 h2{
-    display: inline-block;
-    margin-right: 5px;
     font-size: 110%
 }
 
-h2::before {
-    content: '🤣';
-}
-
-h2::after {
-    content: '🤣'
-}
-
 h3 {
-    display: inline-block;
     margin-right: 5px;
     font-size: 105%;
 }
 
+/* header elements */
+.title {
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.seperator {
+    margin: 10px;
+}
+
+/* center of page elements */
+
 #subBody {
     background-color: var(--mainColor1);
     display:inline-block;
-    height: 100vh;
+    height: auto;
+    background: rgb(255,221,238);
+background: linear-gradient(317deg, rgba(255,221,238,1) 9%, rgba(84,233,255,1) 44%);
+}
+
+/* background image */
+.imgBG {
+    margin-bottom: 25px;
 }
 
 /* hero elements */
@@ -113,9 +129,9 @@ article {
     border:3px solid black;
     padding: 4px;
     background-color: wheat;
-    position:sticky;
-    top: -10px;
-    left: -10px;
+    /* position:sticky; */
+    /* top: -10px;
+    left: -10px; */
 }
 
 #aboutMe {
@@ -128,7 +144,18 @@ article {
 
 /* footer elements */
 #footNavBar {
-    float: right;
+    display:flex;
+    flex-direction: row;
+}
+
+#contactMe {
+    margin:20px;
+}
+
+.footLinks {
+    display:flex;
+    margin: 20px;
+    justify-content: space-evenly;
 }
 
 /* media elements */
@@ -155,12 +182,13 @@ article {
         justify-content: center;
     }
 
-    header {
+    header, nav{
         display: flex;
         font-size: 95%;
         width: 100vh;
         flex-direction:column;
         justify-content: center;
+        align-items: center;
     }
 
     header nav h2{

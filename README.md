@@ -26,5 +26,6 @@ Example screenshot:
 [UCB Bootcamp](https://bootcampspot.com/)\
 [w3schools html](https://www.w3schools.com/html/)\
 [w3schools css](https://www.w3schools.com/css/)
+[stock background image](https://www.pexels.com/photo/high-angle-photography-of-seashore-1705254/)\
 
 ## License
