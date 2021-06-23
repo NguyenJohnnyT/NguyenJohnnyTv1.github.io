@@ -22,8 +22,12 @@ Within this repository are HTML, CSS and image files associated with Johnny's po
 
 Currently, features of this website include mobile-friendliness, in-site navigation links that go to sections of the website and also temporary "project" links that enter Johnny's github profile.
 
-Example screenshot:
-![portfolio demo](./assets/images/readme/JohnnyWebsite.gif "Johnny Nguyen's Portfolio")
+Example webpage screenshot:
+![screenshot](./assets/images/readme/JohnnyWebsiteDesktop.png "Johnny Nguyen's Porfolio on Desktop")
+
+Example mobile demo:
+
+![mobile demo](./assets/images/readme/JohnnyWebsite.gif "Johnny Nguyen's Portfolio on Mobile")
 
 
 ## Credits
