@@ -5,6 +5,9 @@
     --mainColor3: ghostwhite;
     --mainColor4: #6666FF;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'calibri';
