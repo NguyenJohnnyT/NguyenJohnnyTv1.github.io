@@ -13,9 +13,9 @@ body {
     font-family: 'calibri';
     font-size: 16px;
     margin: 0px;
-    position: relative;
-    background-image: url(https://i.redd.it/0r435757fgm41.jpg);
-    background-size: cover;
+    /* position: relative; */
+    /* background-image: url(https://i.redd.it/0r435757fgm41.jpg); */
+    /* background-size: cover; */
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -74,6 +74,7 @@ footer {
     opacity:80%;
     border: 2px solid var(--mainColor3);
 
+    
     bottom: 0;
     width: 90vw;
     margin-left: 5%;
@@ -87,7 +88,7 @@ footer {
 }
 
 /* anchor styling*/
-a:link {
+/* a:link {
     color: var(--mainColor4);
     text-shadow: 1px -1px #0404d1a6;
     text-decoration: none;
@@ -100,11 +101,12 @@ a:visited {
 
 a:hover {
     /* anchor changes color on hover and reduces shadow */
-    font-size: 105%;
+    /* font-size: 105%;
     color: #0000FF;
     padding: 2px;
-    text-shadow: 0 0 black)
+    text-shadow: 0 0 black
 }
+*/
 
 /* defining different header sizes */
 h1 {
@@ -259,3 +261,4 @@ h3 {
         justify-content: center;
         margin: auto;
     }
+}
