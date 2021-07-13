@@ -18,7 +18,7 @@
             <hr class="my-4">
             <p>Based in Santa Clara, California, I am an aspirint programmer with practice in various languages including HTML, CSS, JavaScript, and Python</p>
         <a class="btn btn-success btn-lg" href="#linksToWork" role="button">Projects</a>
-        <a class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#contactMe" href="#contact Me" role="button">Contact Me</a>
+        <a class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#contactMe" href="#contactMe" role="button">Contact Me</a>
         <a class="btn btn-warning btn-lg" href="./assets/#" role="button">Résumé</a>
     </div>
 
@@ -71,7 +71,7 @@
                       <p class="card-text lead">A weather dashboard that was my introduction to fetching from an API.  The website features a search history, live updating of the main and secondary cards, and updating the UV index color based on the danger level.</p>
                       <a href="https://github.com/NguyenJohnnyT/weatherDashboard" target='_blank' class="btn btn-success m-1">Go to the repository!</a>
                       <a href="https://nguyenjohnnyt.github.io/weatherDashboard/" target='_blank' class="btn btn-danger m-1">Go to the deployed site!</a>
-                      <a href="#" class="btn btn-warning m-1">See a live sample</a>
+                      <a class="btn btn-warning m-1" data-toggle="modal" data-target="#weather_modal">See a live sample</a>
                     </div>
                   </div>
             </div>
@@ -88,6 +88,37 @@
                   </div>
             </div>
           </div>
+    </div>
+
+    <div class="modal fade" id="weather_modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="weather_modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="weather_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+                blahblah
+              <img src="./assets/images/Sample repo images/gifs/weather_dashboard_example.gif">
+            </div>
+          </div>
+        </div>
     </div>
 
     <div class="modal fade" id="contactMe" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
